@@ -54,11 +54,11 @@
         [configDict setObject:@"4" forKey:@"number_of_rounds"];
         [configDict setObject:@"1" forKey:@"number_of_practice"];
         [configDict setObject:@"8" forKey:@"number_of_test"];
-        [configDict setObject:@"In this task, for each trial, you will hear a color name (black or white), and then you will need to press the button with the same or different color according to the instructions." forKey:@"Main_Instruction"];
+        [configDict setObject:@"Dans ce test, tu vas entendre un nom de couleur (noir ou blanc). Ensuite, tu devras appuyer sur le bouton de la même couleur ou sur le bouton d’une couleur différente selon les consignes." forKey:@"Main_Instruction"];
         
-        [configDict setObject:@"For each trial, you will hear a color name and you need to press the button with SAME color. When you are ready press start" forKey:@"Congruent_Instruction"];
+        [configDict setObject:@"« Pour chaque essai, tu vas entendre un nom de couleur et tu dois appuyer sur le bouton de la MÊME couleur. Appuie sur « c’est parti » quand tu es prêt." forKey:@"Congruent_Instruction"];
         
-        [configDict setObject:@"For each trial, you will hear a color name and you need to press the button with DIFFERENT color. When you are ready press start" forKey:@"Incongruent_Instruction"];
+        [configDict setObject:@"Pour chaque essai, tu vas entendre un nom de couleur et tu dois appuyer sur le bouton de l’AUTRE couleur. Appuie sur « c’est parti » quand tu es prêt." forKey:@"Incongruent_Instruction"];
         [configDict writeToFile:propertypath atomically:YES];
     }
         //Build the path for keep database
