@@ -56,7 +56,7 @@
         [configDict setObject:@"8" forKey:@"number_of_test"];
         [configDict setObject:@"Dans ce test, tu vas entendre un nom de couleur (noir ou blanc). Ensuite, tu devras appuyer sur le bouton de la même couleur ou sur le bouton d’une couleur différente selon les consignes." forKey:@"Main_Instruction"];
         
-        [configDict setObject:@"« Pour chaque essai, tu vas entendre un nom de couleur et tu dois appuyer sur le bouton de la MÊME couleur. Appuie sur « c’est parti » quand tu es prêt." forKey:@"Congruent_Instruction"];
+        [configDict setObject:@"Pour chaque essai, tu vas entendre un nom de couleur et tu dois appuyer sur le bouton de la MÊME couleur. Appuie sur « c’est parti » quand tu es prêt." forKey:@"Congruent_Instruction"];
         
         [configDict setObject:@"Pour chaque essai, tu vas entendre un nom de couleur et tu dois appuyer sur le bouton de l’AUTRE couleur. Appuie sur « c’est parti » quand tu es prêt." forKey:@"Incongruent_Instruction"];
         [configDict writeToFile:propertypath atomically:YES];

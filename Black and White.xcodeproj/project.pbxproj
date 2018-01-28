@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23350BF5201E2BDC0056B974 /* Black.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 23350BF3201E2BDC0056B974 /* Black.m4a */; };
+		23350BF6201E2BDC0056B974 /* White.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 23350BF4201E2BDC0056B974 /* White.m4a */; };
 		233B29301D25755C00CF96C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 233B292F1D25755C00CF96C2 /* main.m */; };
 		233B29331D25755C00CF96C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 233B29321D25755C00CF96C2 /* AppDelegate.m */; };
 		233B29391D25755C00CF96C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233B29371D25755C00CF96C2 /* Main.storyboard */; };
@@ -19,8 +21,6 @@
 		233B296C1D25884300CF96C2 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 233B296B1D25884300CF96C2 /* IntroViewController.m */; };
 		233B296F1D25885A00CF96C2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 233B296E1D25885A00CF96C2 /* MainViewController.m */; };
 		233B29711D258AF700CF96C2 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 233B29701D258AF700CF96C2 /* libsqlite3.0.tbd */; };
-		233B29741D25AAB300CF96C2 /* Black.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 233B29721D25AAB300CF96C2 /* Black.m4a */; };
-		233B29751D25AAB300CF96C2 /* White.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 233B29731D25AAB300CF96C2 /* White.m4a */; };
 		238CC6A61D6672AD000E0BC6 /* ConfigureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 238CC6A51D6672AD000E0BC6 /* ConfigureViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23350BF3201E2BDC0056B974 /* Black.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Black.m4a; sourceTree = "<group>"; };
+		23350BF4201E2BDC0056B974 /* White.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = White.m4a; sourceTree = "<group>"; };
 		233B292B1D25755C00CF96C2 /* Black and White.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Black and White.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		233B292F1D25755C00CF96C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		233B29311D25755C00CF96C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,8 +66,6 @@
 		233B296D1D25885A00CF96C2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
 		233B296E1D25885A00CF96C2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
 		233B29701D258AF700CF96C2 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
-		233B29721D25AAB300CF96C2 /* Black.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Black.m4a; sourceTree = "<group>"; };
-		233B29731D25AAB300CF96C2 /* White.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = White.m4a; sourceTree = "<group>"; };
 		238CC6A41D6672AD000E0BC6 /* ConfigureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfigureViewController.h; path = ../ConfigureViewController.h; sourceTree = "<group>"; };
 		238CC6A51D6672AD000E0BC6 /* ConfigureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfigureViewController.m; path = ../ConfigureViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,8 +143,8 @@
 		233B292E1D25755C00CF96C2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				233B29721D25AAB300CF96C2 /* Black.m4a */,
-				233B29731D25AAB300CF96C2 /* White.m4a */,
+				23350BF3201E2BDC0056B974 /* Black.m4a */,
+				23350BF4201E2BDC0056B974 /* White.m4a */,
 				233B292F1D25755C00CF96C2 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -272,10 +272,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				233B29751D25AAB300CF96C2 /* White.m4a in Resources */,
+				23350BF6201E2BDC0056B974 /* White.m4a in Resources */,
 				233B29411D25755C00CF96C2 /* LaunchScreen.storyboard in Resources */,
 				233B293E1D25755C00CF96C2 /* Assets.xcassets in Resources */,
-				233B29741D25AAB300CF96C2 /* Black.m4a in Resources */,
+				23350BF5201E2BDC0056B974 /* Black.m4a in Resources */,
 				233B29391D25755C00CF96C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

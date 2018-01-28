@@ -550,8 +550,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Consigne" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZBL-ko-PFk">
-                                <rect key="frame" x="394" y="171" width="237" height="50"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Consigne" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZBL-ko-PFk">
+                                <rect key="frame" x="436" y="171" width="153.5" height="50"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="40"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -665,7 +665,7 @@
                             </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o9B-Dg-otS">
                                 <rect key="frame" x="267" y="334" width="150" height="100"/>
-                                <color key="backgroundColor" patternImage="3D0F3E29-7B3E-459D-BC96-FA546D220976" colorSpace="pattern"/>
+                                <color key="backgroundColor" patternImage="022EB5CE-5A6C-460C-BAAF-1F3C7B13228F" colorSpace="pattern"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="WR6-Jd-vXj"/>
                                     <constraint firstAttribute="height" constant="100" id="il9-pv-3FI"/>
@@ -895,7 +895,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="3D0F3E29-7B3E-459D-BC96-FA546D220976" width="640" height="920">
+        <image name="022EB5CE-5A6C-460C-BAAF-1F3C7B13228F" width="640" height="920">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
